@@ -1558,9 +1558,10 @@ class SettingConfig {
   ];
 
   static const List<String> kUserAgentList = [
-    "mihomo/1.19.27",
+    "mihomo/1.19.28",
     "clash-verge",
     "FLClash",
+    "mihomo.party/v2.0.0 (clash.meta)",
     "ClashMeta",
     "v2ray",
     "sing-box $kCoreVersion",
@@ -1569,10 +1570,11 @@ class SettingConfig {
   ];
   static const Map<String, String> kUserAgentListOldUpgrade = {
     "sing-box": "sing-box $kCoreVersion",
-    "mihomo/1.19.9": "mihomo/1.19.27",
-    "mihomo/1.19.12": "mihomo/1.19.27",
-    "mihomo/1.19.16": "mihomo/1.19.27",
-    "mihomo/1.19.23": "mihomo/1.19.27",
+    "mihomo/1.19.9": "mihomo/1.19.28",
+    "mihomo/1.19.12": "mihomo/1.19.28",
+    "mihomo/1.19.16": "mihomo/1.19.28",
+    "mihomo/1.19.23": "mihomo/1.19.28",
+    "mihomo/1.19.27": "mihomo/1.19.28",
     "NekoBox/Android/1.3.1 (Prefer ClashMeta Format)":
         "NekoBox/Android/1.4.1 (Prefer ClashMeta Format)",
     "NekoBox/Android/1.3.4 (Prefer ClashMeta Format)":

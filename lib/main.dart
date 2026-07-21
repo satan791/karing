@@ -94,10 +94,6 @@ Future<bool> _loadWindowBounds() async {
 }
 
 Future<void> _saveWindowBounds() async {
-  if (!PlatformUtils.isPC()) {
-    return;
-  }
-
   final windowConfig = SettingManager.getConfig().window;
   final bounds = await windowManager.getBounds();
   windowConfig.x = bounds.left;
